@@ -1,0 +1,7 @@
+interface:
+  display_name: "Jira"
+  short_description: "Query Jira issues, sprints, and project tasks"
+  default_prompt: "Use $jira to search Jira issues, sprints, or project tasks."
+
+policy:
+  allow_implicit_invocation: true

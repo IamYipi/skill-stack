@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Structure Index"
+  short_description: "Build and maintain structure_project.md"
+  default_prompt: "Use $project-structure-index to create or refresh structure_project.md for this repository."
