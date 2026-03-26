@@ -15,12 +15,12 @@ Cada skill es un directorio autónomo con su propio `SKILL.md` que define capaci
 skill-stack/
 ├── claude/                         # Skills para Claude
 │   ├── CLAUDE.md                   # Prompt operativo global
-│   ├── archive/                    # Skill: memoria de largo plazo
-│   └── jira/                       # Skill: consultas Jira vía CLI
+│   ├── */                          # Skills individuales (cada una en su propio directorio)
+│  
 │
 ├── codex/                          # Skills para Codex
-│   ├── jira/                       # Skill: consultas Jira
-│   └── project-structure-index/    # Skill: indexado de estructura de proyecto
+│   ├── AGENTS.md                   # Prompt operativo global
+│   └── */                          # Skills individuales (cada una en su propio directorio)
 │
 └── auto-installers/
     ├── unix/
@@ -107,4 +107,3 @@ O desde PowerShell para controlar la ruta de instalación:
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).  
-© 2026 Javier Garcia, Jose A. Cordón.
